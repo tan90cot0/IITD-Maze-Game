@@ -1,0 +1,24 @@
+Installation instructions:
+
+1. To install sdl library:
+	sudo apt-get install libsdl2-dev
+
+2. To install image library of SDL:
+	sudo apt-get install libsdl2-image-dev
+
+3. To install mixer library of SDL:
+	sudo apt-get install libsdl2-mixer-dev
+
+4. To install font support library of SDL:
+	sudo apt-get install libsdl2-ttf-dev
+
+Linker flags:
+	-lSDL2 -lSDL2_image -lSDL2_mixer -g `sdl2-config --cflags --libs` -lSDL2_ttf
+
+References and Acknowledgment:
+
+1. https://lazyfoo.net/tutorials/SDL/index.php
+
+2. https://www.bogotobogo.com/cplusplus/sockets_server_client.php
+
+3. https://www.linuxhowtos.org/C_C++/socket.htm?userrate=2
